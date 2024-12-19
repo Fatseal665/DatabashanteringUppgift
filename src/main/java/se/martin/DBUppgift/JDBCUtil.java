@@ -5,8 +5,7 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
-// java -cp ./lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:./jdbclab --dbname.0 jdbclab
-//URL: jdbc:hsqldb:hsql://localhost/jdbclab
+
 
 public class JDBCUtil {
     private static Properties properties = new Properties();
